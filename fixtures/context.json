@@ -1,7 +1,11 @@
 {
   "domain": "惠民殡葬减免核验",
+  "policies": [
+    {"version": "2026-01", "effectiveFrom": "2026-01-01", "items": ["遗体接运", "基本火化"]},
+    {"version": "2026-09", "effectiveFrom": "2026-09-01", "items": ["遗体接运", "基本火化", "骨灰寄存"]}
+  ],
   "records": [
-    {"window": "综合受理一号窗", "service": "社保转移", "date": "2026-10-08", "capacity": 18},
-    {"window": "综合受理二号窗", "service": "居住证签注", "date": "2026-10-08", "capacity": 12}
+    {"applicationId": "F-2001", "deceasedRef": "D-018", "deathDate": "2026-08-31", "status": "materials_pending"},
+    {"applicationId": "F-2002", "deceasedRef": "D-019", "deathDate": "2026-09-02", "status": "received"}
   ]
 }
